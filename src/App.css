@@ -1,0 +1,146 @@
+@font-face{
+  font-family: "Regular";
+  src: url(./fonts/Flux\ Regular.otf);
+}
+
+.logo{
+  padding-left: 20px;
+  padding-top:20px;
+
+  
+}
+
+.header{
+  display:flex;
+  width:1440px;
+  /* height:50px; */
+  margin: 0 auto;
+  background-color: #1e415e;
+  position: sticky;
+  top:0;
+  border-bottom:1px solid  #1e415e;
+ 
+  
+}
+
+.nav_bar{
+  padding-top:30px; 
+  padding-left: 577px;
+}
+
+.link{
+  margin-left: 60px;
+  color:#e6e8ea;
+  text-decoration: none;
+  font-size: 23px;
+  font-family: "Regular";
+}
+/*////////////////////////////////////*/
+
+.main{
+  margin-top:10px;
+  height: 435px;
+  width:1440px;
+  background-color: #2b5b84;
+  margin: 0 auto;
+}
+
+.button{
+  margin-top:0px;
+  margin-left:631px;
+  width:180px;
+  height:60px;
+  font-family: "Regular";
+/*   background-color: #fff; */
+background-color: #ffd343;
+border-radius: 6px;
+  font-size: 20px;
+  height:53px;
+  width:200px;
+  
+}
+
+.title{
+  padding-top:170px;
+  padding-left:647px;
+  font-family: "Regular";
+  color:#e6e8ea;
+  font-size: 60px;
+}
+
+.title_text{
+  padding-top:20px;
+  padding-bottom: 40px;
+  padding-left:393px;
+  font-family: "Regular";
+  color:#e6e8ea;
+  font-size: 30px;
+}
+/* ///////////////////////////////////////////// */
+
+.info{
+  display: flex;
+  height: 390px;
+  width:1440px;
+  background-color:#e6e8ea;
+  margin: 0 auto;
+}
+
+.info_header{
+  padding-top:80px;
+font-size: 24px;
+font-family: "Regular";
+width:275px;
+padding-left:65px;
+font-weight: normal;
+font-style: italic;
+}
+
+.info_text{
+  /* border-top: 4px solid #75a8d3; */
+  font-size:17px;
+  font-family: "Regular";
+  width:240px;  
+  padding-top:20px;
+  padding-left:65px;
+}
+
+/* ////////////////////////////////////////////// */
+.footer{
+  width:1440px;
+  height:70px;
+  margin:0 auto;
+  background-image: linear-gradient(#1e415e 10%,#2b5b84 90%);
+}
+
+/* about */
+
+.about{
+  width:1440px;
+  /* height:500px; */
+  margin:0 auto;
+  background-color: #2b5b84;
+}
+
+.about_header{
+  padding-top:50px;
+  font-size: 64px;
+  padding-left: 100px;
+  color:#fff; 
+  font-family: "Regular";
+  margin:0;
+}
+
+.about_text{
+  width:800px;
+  color:#fff;
+  padding-left: 100px;
+  padding-top:30px;
+  font-family: "Regular";
+  font-size: 23px;
+}
+
+.her{
+  display:flex;
+}
+
