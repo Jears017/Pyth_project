@@ -1,11 +1,12 @@
 import React from 'react';
 import './App.css';
-import Header from './components/Header';
-import Main from './components/Main';
-import Info from './components/Info';
-import Footer from './components/Footer';
+
 import { Route, BrowserRouter } from 'react-router-dom';
-import About from './components/About';
+import About from './components/About/About';
+import Header from './components/Main_page/Header/Header';
+import Main from './components/Main_page/Main/Main';
+import Info from './components/Main_page/Info/Info';
+import Footer from './components/Main_page/Footer/Footer';
 
 const App = ()=> {
   return (

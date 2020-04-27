@@ -1,0 +1,19 @@
+.footer{
+  width:100%;
+  height:70px;
+  margin:0 auto;
+  background-image: linear-gradient(#1e415e 10%,#2b5b84 90%);
+}
+
+.nav_bar{
+  padding-top:30px; 
+  padding-left: 577px;
+}
+
+.link{
+  margin-left: 60px;
+  color:#e6e8ea;
+  text-decoration: none;
+  font-size: 23px;
+  font-family: "Regular";
+}

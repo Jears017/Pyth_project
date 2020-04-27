@@ -1,0 +1,39 @@
+.main{
+  margin-top:10px;
+  height: 435px;
+  width:100%;
+  background-color: #2b5b84;
+  margin: 0 auto;
+}
+
+.button{
+  margin-top:0px;
+  margin-left:761px;
+  width:180px;
+  height:60px;
+  font-family: "Regular";
+/*   background-color: #fff; */
+background-color: #ffd343;
+border-radius: 6px;
+  font-size: 20px;
+  height:53px;
+  width:200px;
+  
+}
+
+.title{
+  padding-top:170px;
+  padding-left:780px;
+  font-family: "Regular";
+  color:#e6e8ea;
+  font-size: 60px;
+}
+
+.title_text{
+  padding-top:20px;
+  padding-bottom: 40px;
+  padding-left:540px;
+  font-family: "Regular";
+  color:#e6e8ea;
+  font-size: 30px;
+}

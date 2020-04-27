@@ -1,0 +1,53 @@
+
+.about{
+    width:1440px;
+    margin:0 auto;
+    background-color: #fff;
+    
+  }
+  
+  .about_header{
+    padding-top:50px;
+    font-size: 64px;
+    padding-left: 100px;
+    color:#1e415e; 
+    font-family: "Regular";
+    margin:0;
+  }
+  
+  .about_text{
+    width:800px;
+    color:#1e415e;
+    padding-left: 100px;
+    padding-top:30px;
+    font-family: "Regular";
+    font-size: 23px;
+  }
+  
+  .her{
+    display:flex;
+  }
+  
+  .sidenav {
+    margin-left: 1338px;
+    height: 90%;
+    width: 500px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(247, 247, 247);
+    overflow-x: hidden;
+    padding-top: 20px;
+    margin-top:103px;
+  
+  }
+  
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    margin-left:200px;
+  }
