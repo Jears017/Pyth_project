@@ -15,6 +15,8 @@ import Math from './components/themes/arithOperations/Math';
 import Assignment from './components/themes/assignment/Assignment';
 import LogicalOper from './components/themes/logiacalOper/LogicalOper';
 import Priority from './components/themes/priority/Priority';
+import Lists from './components/themes/lists/Lists';
+import Conditional from './components/themes/conditionalStat/Conditional';
 
 
 
@@ -35,6 +37,8 @@ const App = () => {
         <Route path='/assignment' render={() =>   <Assignment/>} />
         <Route path='/logicalOper' render={() =>   <LogicalOper/>} />
         <Route path='/priority' render={() =>   <Priority/>} />
+        <Route path='/lists' render={() =>   <Lists/>} />
+        <Route path='/conditional' render={() =>   <Conditional/>} />
 
 
         

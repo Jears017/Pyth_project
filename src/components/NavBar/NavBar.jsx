@@ -17,7 +17,8 @@ const NavBar = () => {
                 <NavLink className={s.link} to="/logicalOper">Оценочная логика</NavLink>
                 <NavLink className={s.link} to="/priority">Определение приорететов</NavLink>
                 <NavLink className={s.link} to="/datatypes">Преобразование типов данных</NavLink>
-                <NavLink className={s.link} to="/introduction">Переназначение данных</NavLink>
+                <NavLink className={s.link} to="/lists">Списки</NavLink>
+                <NavLink className={s.link} to="/conditional">Условные операторы</NavLink>
                 <NavLink className={s.link} to="/introduction">Переменные</NavLink>
             </div>
     );
