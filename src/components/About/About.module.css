@@ -1,8 +1,8 @@
 
 .about{
-    width:1440px;
+    width:100%;
     margin:0 auto;
-    background-color: #fff;
+    background-color: blue;
     
   }
   
@@ -28,26 +28,31 @@
     display:flex;
   }
   
-  .sidenav {
-    margin-left: 1338px;
-    height: 90%;
-    width: 500px;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: rgb(247, 247, 247);
-    overflow-x: hidden;
-    padding-top: 20px;
-    margin-top:103px;
-  
+ 
+  /* ыыыыыыыыыыыыыыыыыыыыыы */
+
+  .menu ul {
+    margin: 0;
+    list-style: none;
+    padding-left: 20px;
+    display: none;
   }
-  
-  .sidenav a {
-    padding: 6px 8px 6px 16px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #818181;
+
+  .menu .title {
+    font-size: 18px;
+    cursor: pointer;
+  }
+
+  .menu .title::before {
+    content: '▶ ';
+    font-size: 80%;
+    color: green;
+  }
+
+  .menu.open .title::before {
+    content: '▼ ';
+  }
+
+  .menu.open ul {
     display: block;
-    margin-left:200px;
   }

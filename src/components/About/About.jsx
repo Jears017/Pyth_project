@@ -1,17 +1,14 @@
 import React from 'react';
 import s from './About.module.css'
+import NavBar from '../NavBar/NavBar';
 
 
 
 const About = () => {
     return (
         <div className={s.about}>
-            <div class={s.sidenav}>
-                <a href="#about">About</a>
-                <a href="#services">Services</a>
-                <a href="#clients">Clients</a>
-                <a href="#contact">Contact</a>
-            </div>
+          <NavBar/>
+
             <div className={s.her}>
                 <div>
                     <h1 className={s.about_header}>Python is...</h1>

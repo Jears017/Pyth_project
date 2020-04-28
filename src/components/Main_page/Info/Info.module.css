@@ -1,7 +1,7 @@
 .info{
   display: flex;
   height: 390px;
-  width:1440px;
+  width:100%;
   background-color:#e6e8ea;
   margin: 0 auto;
 }
@@ -23,4 +23,8 @@ font-style: italic;
   width:240px;  
   padding-top:20px;
   padding-left:65px;
+}
+
+.container{
+  margin-left: 80px;
 }
